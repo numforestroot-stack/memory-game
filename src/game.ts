@@ -1,18 +1,18 @@
 import type { Card, CharacterPair, Difficulty, DifficultyConfig, GameState, BestScore, BestScores } from './types';
 
 const CHARACTER_PAIRS: CharacterPair[] = [
-  { character: '龙', meaning: 'dragon' },
-  { character: '凤', meaning: 'phoenix' },
-  { character: '山', meaning: 'mountain' },
-  { character: '水', meaning: 'water' },
-  { character: '火', meaning: 'fire' },
-  { character: '月', meaning: 'moon' },
-  { character: '风', meaning: 'wind' },
-  { character: '花', meaning: 'flower' },
-  { character: '雪', meaning: 'snow' },
-  { character: '云', meaning: 'cloud' },
-  { character: '星', meaning: 'star' },
-  { character: '雷', meaning: 'thunder' },
+  { character: '龙', meaning: 'lóng' },
+  { character: '凤', meaning: 'fèng' },
+  { character: '山', meaning: 'shān' },
+  { character: '水', meaning: 'shuǐ' },
+  { character: '火', meaning: 'huǒ' },
+  { character: '月', meaning: 'yuè' },
+  { character: '风', meaning: 'fēng' },
+  { character: '花', meaning: 'huā' },
+  { character: '雪', meaning: 'xuě' },
+  { character: '云', meaning: 'yún' },
+  { character: '星', meaning: 'xīng' },
+  { character: '雷', meaning: 'léi' },
 ];
 
 export const DIFFICULTY_CONFIGS: Record<Difficulty, DifficultyConfig> = {

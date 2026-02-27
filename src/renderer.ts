@@ -115,7 +115,7 @@ export class Renderer {
       cardEl.innerHTML = `
         <div class="card-inner">
           <div class="card-front">
-            <span class="card-pattern">記</span>
+            <div class="pokeball"></div>
           </div>
           <div class="card-back">
             <span class="card-character">${card.character}</span>
